@@ -1,11 +1,15 @@
 ---
 import Logo from "./Logo.astro"
+import Logo-img from "/robot-1-64.png";
+---
 import ThemeToggle from "./ThemeToggle.astro"
 ---
 
 <header class="sticky top--100px z-99">
   <div class="w-100px h-100px logo">
-    <Logo />
+    <!-- <Logo /> -->
+    <a href="">
+    <img mr-1 w-18 src={Logo-img} /></a>
   </div>
   <div class="flex justify-between items-center">
     <div
@@ -17,7 +21,7 @@ import ThemeToggle from "./ThemeToggle.astro"
         >ChatGPT</span
       >
       <span class="ml-1 font-extrabold text-slate-7 dark:text-slate"
-        >Vercel</span
+        >kk</span
       >
     </div>
     <ThemeToggle />
