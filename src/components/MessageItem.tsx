@@ -74,11 +74,11 @@ export default (props: Props) => {
   return (
     <div
       class="group flex py-2 gap-3 px-4 rounded-lg transition-colors md:hover:bg-slate/5 dark:md:hover:bg-slate/2 relative message-item"
-    //   classList={{
-    //     temporary: props.index === undefined
-    //   }}
-    // >
-    //   <div
+      classList={{
+        temporary: props.index === undefined
+      }}
+    >
+      <div
     //     class={`shrink-0 w-7 h-7 mt-4 rounded-full op-80 ${
     //       roleClass[props.role]
     //     }`}
