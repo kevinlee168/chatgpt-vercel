@@ -79,7 +79,7 @@ export default (props: Props) => {
       }}
     >
       <div>
-        <img style="width: 32px; height: 32px; border-radius: 50%;background-size: cover;margin-top: 20px;" src={props.role == "user" ? profile : robotImg} />
+        <img style="width: 32px; max-width: 32px;height: 32px; border-radius: 50%;background-size: cover;margin-top: 20px;" src={props.role == "user" ? profile : robotImg} />
       </div>
       <div
         class="message prose prose-slate dark:prose-invert dark:text-slate break-words overflow-hidden"
