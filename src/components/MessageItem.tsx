@@ -78,11 +78,7 @@ export default (props: Props) => {
         temporary: props.index === undefined
       }}
     >
-      <div
-        class={`shrink-0 w-7 h-7 mt-4 rounded-full op-80 ${
-          roleClass[props.role]
-        }`}
-      >
+      <div>
         <img style="width: 32px; height: 32px; border-radius: 50%;background-size: cover;margin-top: 20px;" src={props.role == "user" ? profile : robotImg} />
       </div>
       <div
