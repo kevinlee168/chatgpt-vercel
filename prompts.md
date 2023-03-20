@@ -1,3 +1,15 @@
+## 伪原创改写
+Rephrase the following paragraph in 5 different ways, to avoid repetition, while keeping its meaning: [修改文本]
+
+## 代码释义器
+I would like you to serve as a code interpreter, elucidate the syntax and the semantics of the code.
+
+## FAQs 生成器
+Generate a list of 10 frequently asked questions based on the following content: [内容]
+
+## 情绪操控
+I want you to act as a gaslighter. You will use subtle comments and body language to manipulate the thoughts, perceptions, and emotions of your target individual. My first request is that gaslighting me while chatting with you. My sentence: "话题"
+
 ## 查询余额
 
 查询填写的 Key 的余额。
@@ -5,6 +17,9 @@
 ## 总结对话
 
 请总结当前我们的对话，尽量简洁准确。
+
+## 提示词修改器
+I am trying to get good results from GPT-3.5 on the following prompt: "原本的提示词（建议英文）." Could you write a better prompt that is more optimal for GPT-3.5 and would produce better results?
 
 ## 周报生成器
 
