@@ -247,7 +247,7 @@ export default function (props: {
     }
     const data = response.body
     if (!data) {
-      throw new Error("没有返回数据")
+      throw new Error("No data returned!")
     }
     const reader = data.getReader()
     const decoder = new TextDecoder("utf-8")
@@ -343,7 +343,8 @@ export default function (props: {
       <div
         id="message-container"
         style={{
-          "background-color": "var(--c-bg)"
+          // "background-color": "var(--c-bg)"
+          "background-color": "#ffebda"
         }}
       >
         <For each={messageList()}>
@@ -387,12 +388,12 @@ export default function (props: {
           when={!loading()}
           fallback={() => (
             <div class="h-12 flex items-center justify-center bg-slate bg-op-15 text-slate rounded">
-              <span>AI 正在思考...</span>
+              <span>AI is thinking...</span>
               <div
                 class="ml-1em px-2 py-0.5 border border-slate text-slate rounded-md text-sm op-70 cursor-pointer hover:bg-slate/10"
                 onClick={stopStreamFetch}
               >
-                不需要了
+                Stop
               </div>
             </div>
           )}
@@ -407,7 +408,7 @@ export default function (props: {
             <textarea
               ref={inputRef!}
               id="input"
-              placeholder="与 ta 对话吧"
+              placeholder="Say something, and press 'Enter'"
               autocomplete="off"
               value={inputContent()}
               autofocus

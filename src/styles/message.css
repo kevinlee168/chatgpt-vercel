@@ -1,3 +1,7 @@
+.message {
+  padding-left: 10px;
+}
+
 .message pre {
   background-color: #1c1e29;
   font-size: 0.8rem;
