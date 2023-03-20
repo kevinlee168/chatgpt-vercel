@@ -343,8 +343,8 @@ export default function (props: {
       <div
         id="message-container"
         style={{
-          // "background-color": "var(--c-bg)"
-          "background-color": "#ffebda"
+          "background-color": "var(--c-bg)"
+          // "background-color": "#ffebda"
         }}
       >
         <For each={messageList()}>
