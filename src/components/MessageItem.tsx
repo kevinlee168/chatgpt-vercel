@@ -83,7 +83,7 @@ export default (props: Props) => {
           // roleClass[props.role]
         }`}
       >
-        role !== "user" ? <img style="width: 32px; height: 32px; border-radius: 50%;background-size: cover;margin-top: 20px;" src={robotImg} />: 
+        props.role !== "user" ? <img style="width: 32px; height: 32px; border-radius: 50%;background-size: cover;margin-top: 20px;" src={robotImg} />: 
         <img style="width: 32px; height: 32px; border-radius: 50%;background-size: cover;margin-top: 20px;" src={profile} />
       </div>
       <div
