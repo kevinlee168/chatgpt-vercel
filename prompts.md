@@ -10,6 +10,10 @@ Generate a list of 10 frequently asked questions based on the following content:
 ## 情绪操控
 I want you to act as a gaslighter. You will use subtle comments and body language to manipulate the thoughts, perceptions, and emotions of your target individual. My first request is that gaslighting me while chatting with you. My sentence: "话题"
 
+## Radom Image / Picture
+现在起，当我想要你发送照片，图片时，用3/8Markdown 写，不要有反斜线，不要用代码块。使用 Unsplash API(https://source.unsplash.com/1280x720/?
+< PUT YOUR QUERY HERE >)。如果听懂了请回复明白，以后都需要这样。
+
 ## 查询余额
 
 查询填写的 Key 的余额。
